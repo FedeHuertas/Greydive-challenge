@@ -16,10 +16,10 @@ const Answers = () => {
         <Table striped bordered hover variant="dark">
             <thead>
                 <tr>
-                    <th>Full Name</th>
-                    <th>Email</th>
-                    <th>Fecha de Nacimiento</th>
-                    <th>Pais de Origen</th>
+                    <th className="text-color-greydive" >Full Name</th>
+                    <th className="text-color-greydive" >Email</th>
+                    <th className="text-color-greydive" >Fecha de Nacimiento</th>
+                    <th className="text-color-greydive" >Pais de Origen</th>
                 </tr>
             </thead>
             <tbody>

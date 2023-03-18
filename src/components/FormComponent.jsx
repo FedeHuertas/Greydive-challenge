@@ -94,7 +94,7 @@ const FormComponent = () => {
 
                 })}
             </Form>
-            <Modal show={showModal} centered style={{color: "#242424"}}>
+            <Modal show={showModal} centered style={{color: "#242424"}} onHide={()=>setShowModal(false)}>
                 <Modal.Title className='p-3'>
                     Respuesta guardada
                 </Modal.Title>
