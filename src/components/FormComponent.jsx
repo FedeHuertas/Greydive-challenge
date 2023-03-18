@@ -78,7 +78,7 @@ const FormComponent = () => {
                     } else if (d.type == "submit") {
                         return (
                             <Form.Group className="mb-3" key={i} >
-                                <Button className='w-25' bg="dark" disabled={Object.keys(errors).length} type={d.type} onChange={handleInputChange} name={d.name} value={form[d.name]} >{d.label}</Button>
+                                <Button className='w-25 btn-greydive' disabled={Object.keys(errors).length} type={d.type} onChange={handleInputChange} name={d.name} value={form[d.name]} >{d.label}</Button>
                                 <Form.Text className="text-danger ms-2" hidden={!Object.keys(errors).length} >Falta completar campos obligatorios (*)</Form.Text>
                             </Form.Group>
                         )
@@ -102,7 +102,7 @@ const FormComponent = () => {
                     ✓ Su respuesta ha sido guardada con éxito
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button href='/#/answers'>Ver Respuestas</Button>
+                    <Button className='btn-greydive' href='/#/answers'>Ver Respuestas</Button>
                 </Modal.Footer>
             </Modal>
         </>

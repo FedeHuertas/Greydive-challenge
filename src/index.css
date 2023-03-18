@@ -72,3 +72,23 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.btn-greydive {
+    background-color: #d4145a !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+.text-color-greydive {
+    color: #d4145a !important;
+}
+
+.nav-link.active {
+    color: #d4145a !important;
+}
+
+.form-check-input {
+    background-color: #d4145a !important;
+    border: 1px #dc3545 solid !important;
+
+}

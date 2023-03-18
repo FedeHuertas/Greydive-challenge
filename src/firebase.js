@@ -6,13 +6,14 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD6kRTK5K_b0jnCHpAtRmDkHJAi2TsEM5Q",
-  authDomain: "greydive-forms.firebaseapp.com",
-  projectId: "greydive-forms",
-  storageBucket: "greydive-forms.appspot.com",
-  messagingSenderId: "398784268376",
-  appId: "1:398784268376:web:41c36ce1bb245b5d5ca22d"
+  apiKey: "AIzaSyADDjmqwcaI8bV4r-poQCwuW8xH4U7WmhM",
+  authDomain: "greydive-forms2.firebaseapp.com",
+  projectId: "greydive-forms2",
+  storageBucket: "greydive-forms2.appspot.com",
+  messagingSenderId: "1098753050300",
+  appId: "1:1098753050300:web:214a2a4be42679334bb2b9"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
